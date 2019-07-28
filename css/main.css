@@ -1,0 +1,359 @@
+
+  .menu{
+    background:#026890;
+    width:100%;
+    height:49px;
+}
+  .menu ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+  }
+  .menu ul li{
+    float:left;
+    border-right:1px solid #24478F;
+    border-left:1px solid #4775D1;
+    position:relative;
+   
+  }
+  .menu ul li:first-child{border-left:0px solid #4775D1;}
+  .menu ul li:first-child{border-right:0px solid #4775D1;}
+  .menu ul li a{
+     display:block;
+   background:#026890;
+    padding:13px 36px;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-weight: bold;
+  }
+  .menu ul li a:hover{
+    background:#1C779B;
+  }
+  .cart li:hover{
+    background:blue;
+    font-size:40px;
+  }
+  
+
+
+  .logo{
+    width:960px;
+    height:85px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+  }
+  .brand{
+    width: 400px;
+    float: left;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .search{
+     width:auto;
+     float: right;
+     margin-top: 27px;
+     margin-right:-93px;
+  }
+  .box{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 41px;
+    box-shadow: 0px 0px 20px 0px #a9a9a9;
+  }
+  .nopad{
+    padding:0px !important;
+  }
+  .menu ul li ul{
+     position:absolute;
+     left:-9999px;
+     z-index:10000000;
+ }
+  .menu ul li:hover ul{left:0px;}
+  .menu ul li ul li{
+    float:none;
+    border-top:1px solid #4775D1;
+    border-bottom:1px solid #24478F;
+    width:255px;
+  }
+  .menu ul li ul li a{
+     display:block;
+   background:#026890;
+    padding:10px 20px;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-weight: bold;
+  }
+  .menu ul li ul li a:hover{}
+
+  .slide-img{
+    height:300px;
+    width:100%;
+  }
+  .imgs{
+    height:34px;
+    width:35px;
+    float:right;
+  }
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+.media{
+  width:100%;
+  height:66px;
+  margin-top: 20px;
+  
+}
+.fb{
+  margin:auto;
+  float:right;
+  width:34px;
+  height:35px;
+}
+.twitter{
+  width:auto;
+  float:right;
+   width:34px;
+  height:35px;
+
+}
+
+.linkedin{
+  width:auto;
+  float:right;
+   width:34px;
+  height:35px;
+}
+
+.mail{
+  margin:auto;
+  float:right;
+   width:34px;
+  height:35px;
+}
+.post-container{
+  display: inline-block;
+    width: 29%;
+    min-height: 437px;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-right: 19px;
+    margin-left: 19px;
+    padding: 30px 26px;
+    border: 1px solid #1C779B;
+    transition: box-shadow .5s ease;
+    justify-content: center;
+    -webkit-box-align: center;
+    text-align: center;
+    box-sizing: border-box;
+   
+}
+.post-container:hover{
+  box-shadow: 0px 0px 20px 0px #a9a9a9;
+}
+
+
+.collection{
+  font-size: 21px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom:10px;
+    text-align:center;
+    font-weight: 300;
+    font-family: Montserrat,sans-serif;
+   text-transform: uppercase;
+   color: #026890;
+}
+.descriptio{
+  font-size: 13px;
+  height:auto;
+  line-height: 2em;
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:0px;
+  font-family: Montserrat,sans-serif;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #026890;
+    border-color: #026890;
+    width: 162px;
+     text-transform: uppercase;
+}
+.media ul li:hover{
+  transform:translateY(-5px);
+}
+.icon {
+    border: 1px solid #bfbfbf;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 150px;
+    margin-left: 10px;
+}
+
+.footer{
+  position:relative;
+  background:blue; 
+  background: -moz-linear-gradient(top,  #026890 55%, #026890 100%); 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,#414045), color-stop(100%,#2f2e33));
+  background: -webkit-linear-gradient(top,  #414045 55%,#2f2e33 100%); 
+  background: -o-linear-gradient(top,  #414045 55%,#2f2e33 100%); 
+  background: -ms-linear-gradient(top,  #414045 55%,#2f2e33 100%); 
+  background: linear-gradient(to bottom,  #026890 55%,#026890 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414045', endColorstr='#2f2e33',GradientType=0 );
+  box-shadow: inset 0px 1px 8px #222;
+}
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1;
+}
+.col_1_of_4{
+  display: block;
+  float:left;
+  margin: 0% 0 1% 1.6%;
+  border-right: 2px groove ##0f91a7;;
+}
+.col_1_of_4:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.col_1_of_4:last-child {
+  border:none;
+}
+.span_1_of_4 {
+  width: 20.5%;
+  padding:1.5%; 
+}
+.span_1_of_4  h4 {
+  color:#ccc;
+  margin-bottom: .5em;
+  font-size:1.2em;
+  line-height: 1.2;
+  font-family:'Doppio One', sans-serif;
+  font-weight : normal;
+  margin-top: 0px;
+  letter-spacing: -1px;
+  text-transform:uppercase;
+  border-bottom:1px solid #474747;
+  padding-bottom:0.5em;
+}
+.span_1_of_4  li a{
+  font-size:0.8125em;
+  padding:0.4em 0;
+  color:#979797;
+  font-family :Arial, Helvetica, sans-serif;
+  display:block;     
+}
+.span_1_of_4  li a:hover,.span_1_of_4  li span:hover{
+  color:#BBB7B7;
+}
+.span_1_of_4  li span{
+  font-size:1.2em;
+  padding:0.2em 0;
+  color:#979797;
+  display:block;
+  cursor:pointer;
+}
+/*** Social Icons ***/
+.social-icons{
+  padding-top:8%;
+}
+.social-icons li {
+  width:30px;
+  height:30px;
+  padding: 0px 0 0 5px;
+  margin: 0;
+    display:inline-block;
+  cursor:pointer;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
